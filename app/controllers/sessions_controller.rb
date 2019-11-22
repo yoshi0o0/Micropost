@@ -30,7 +30,7 @@ class SessionsController < ApplicationController
       return true
     else
       #ログイン失敗
-    　return false
+      return false
     end
   end
 end
