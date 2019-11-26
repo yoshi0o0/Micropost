@@ -26,6 +26,10 @@
       <span class="badge badge-secondary">
         <%= @count_followers %>
       </span></a></li>
+      <li class="nav-item"><a href="<%= likes_user_path(@user) %>" class="nav-link<%= likes_user_path(@user) %>">Favorites
+      <span class="badge badge-secondary">
+        <%= @count_favorites %>
+      </span></a></li>
     </ul>
     
 <%= render "microposts/microposts", microposts: @microposts %>
